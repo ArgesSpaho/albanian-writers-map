@@ -6,12 +6,12 @@ const map = L.map('map', {
     maxBounds: [[39.5, 19.0], [42.7, 21.2]], // Restrict view to Albania
     maxZoom: 10,
     minZoom: 6,
-    attributionControl: false // We'll add our own attribution
+    attributionControl: true // We need this for OpenStreetMap attribution
 });
 
-// Create a vintage style map layer using Stadia Maps
-L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.jpg', {
-    attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/about/" target="_blank">OpenStreetMap</a>',
+// Create a vintage style map layer using OpenStreetMap
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 10,
     opacity: 0.7 // Make the map slightly transparent to blend with the background
 }).addTo(map);
@@ -23,7 +23,7 @@ L.tileLayer('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJA
 }).addTo(map);
 
 // Load and style the GeoJSON with vintage styling
-fetch('/data/geoBoundaries-ALB-ADM1_simplified.geojson')
+fetch('../data/geoBoundaries-ALB-ADM1_simplified.geojson')
     .then(response => response.json())
     .then(data => {
         // Add a layer for the Albania geojson with vintage styling
@@ -115,7 +115,7 @@ const writerIcon = L.divIcon({
 });
 
 // Fetch writers data
-fetch('/data/writers.json')
+fetch('../data/writers.json')
     .then(response => response.json())
     .then(data => {
         // Add markers for each writer
