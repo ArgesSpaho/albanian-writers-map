@@ -9,11 +9,11 @@ const map = L.map('map', {
     attributionControl: true
 });
 
-// Create a vintage style map layer using Stadia Maps Terrain
-L.tileLayer('https://tiles-eu.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.jpg?api_key=457ec2b6-2168-4d74-965a-d3f2227ae403', {
-    attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/about/" target="_blank">OpenStreetMap</a>',
+// Create a vintage style map layer using OpenStreetMap
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 10,
-    opacity: 0.8 // Slightly increased opacity for better terrain visibility
+    opacity: 0.8 // Slightly reduced opacity for vintage effect
 }).addTo(map);
 
 // Add a sepia filter overlay with reduced opacity for better terrain visibility
