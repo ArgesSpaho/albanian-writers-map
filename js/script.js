@@ -9,9 +9,9 @@ const map = L.map('map', {
     attributionControl: true
 });
 
-// Create a less detailed base map layer using Stadia Maps Alidade Smooth
-L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>',
+// Create a base map layer using OpenStreetMap
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 10,
     opacity: 0.6 // Reduced opacity for vintage effect
 }).addTo(map);
@@ -26,7 +26,7 @@ L.tileLayer('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJA
 const maskLayer = L.rectangle([[-90, -180], [90, 180]], {
     color: '#f4e4bc',
     fillColor: '#f4e4bc',
-    fillOpacity: 0.7,
+    fillOpacity: 0.6,
     weight: 0
 }).addTo(map);
 
