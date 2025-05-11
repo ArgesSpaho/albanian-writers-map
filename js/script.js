@@ -116,7 +116,12 @@ const writerIcon = L.divIcon({
 
 // Fetch writers data
 fetch('../data/writers.json')
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
         // Add markers for each writer
         data.writers.forEach(writer => {
@@ -129,4 +134,11 @@ fetch('../data/writers.json')
             .on('click', () => showModal(createModalContent(writer)));
         });
     })
-    .catch(error => console.error('Error loading writers data:', error)); 
+    .catch(error => {
+        console.error('Error loading writers data:', error);
+        // Add visible error message on the map
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'map-error';
+        errorDiv.innerHTML = 'Error loading writer data. Please try refreshing the page.';
+        document.getElementById('map').appendChild(errorDiv);
+    }); 
