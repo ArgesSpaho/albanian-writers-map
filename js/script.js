@@ -6,20 +6,20 @@ const map = L.map('map', {
     maxBounds: [[39.5, 19.0], [42.7, 21.2]], // Restrict view to Albania
     maxZoom: 10,
     minZoom: 6,
-    attributionControl: true // We need this for OpenStreetMap attribution
+    attributionControl: true
 });
 
-// Create a vintage style map layer using OpenStreetMap
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+// Create a vintage style map layer using Stadia Maps Terrain
+L.tileLayer('https://tiles-eu.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.jpg?api_key=457ec2b6-2168-4d74-965a-d3f2227ae403', {
+    attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/about/" target="_blank">OpenStreetMap</a>',
     maxZoom: 10,
-    opacity: 0.7 // Make the map slightly transparent to blend with the background
+    opacity: 0.8 // Slightly increased opacity for better terrain visibility
 }).addTo(map);
 
-// Add a sepia filter overlay
+// Add a sepia filter overlay with reduced opacity for better terrain visibility
 L.tileLayer('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMTUvMjB/4fz7AAAAC0lEQVQImWP4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC', {
     maxZoom: 10,
-    opacity: 0.2
+    opacity: 0.15 // Reduced opacity to let more of the terrain detail show through
 }).addTo(map);
 
 // Load and style the GeoJSON with vintage styling
