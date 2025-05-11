@@ -115,7 +115,7 @@ const writerIcon = L.divIcon({
 });
 
 // Fetch writers data
-fetch('../data/writers.json')
+fetch('/data/writers.json')
     .then(response => response.json())
     .then(data => {
         // Add markers for each writer
