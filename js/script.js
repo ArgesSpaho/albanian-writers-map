@@ -9,17 +9,25 @@ const map = L.map('map', {
     attributionControl: true
 });
 
-// Create a vintage style map layer using OpenStreetMap
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+// Create a less detailed base map layer using Stadia Maps Alidade Smooth
+L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>',
     maxZoom: 10,
-    opacity: 0.8 // Slightly reduced opacity for vintage effect
+    opacity: 0.6 // Reduced opacity for vintage effect
 }).addTo(map);
 
-// Add a sepia filter overlay with reduced opacity for better terrain visibility
+// Add a sepia filter overlay
 L.tileLayer('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMTUvMjB/4fz7AAAAC0lEQVQImWP4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC', {
     maxZoom: 10,
-    opacity: 0.15 // Reduced opacity to let more of the terrain detail show through
+    opacity: 0.2
+}).addTo(map);
+
+// Create a mask layer for areas outside Albania
+const maskLayer = L.rectangle([[-90, -180], [90, 180]], {
+    color: '#f4e4bc',
+    fillColor: '#f4e4bc',
+    fillOpacity: 0.7,
+    weight: 0
 }).addTo(map);
 
 // Load and style the GeoJSON with vintage styling
@@ -32,16 +40,22 @@ fetch('/albanian-writers-map/data/geoBoundaries-ALB-ADM1_simplified.geojson')
                 color: '#8b4513', // Vintage brown color
                 weight: 2,
                 fillColor: '#f4e4bc', // Vintage paper color
-                fillOpacity: 0.3,
+                fillOpacity: 0.1,
                 dashArray: '5, 5', // Create a dashed line for vintage effect
                 opacity: 0.8
             }
         }).addTo(map);
 
+        // Create an inverted mask using Albania's shape
+        maskLayer.setLatLngs([
+            [[-90, -180], [90, 180]], // World bounds
+            albaniaLayer.getBounds().pad(0.1).toBBoxString().split(',').map(Number).concat() // Albania bounds
+        ]);
+
         // Set the map's bounds to focus on Albania
         map.fitBounds(albaniaLayer.getBounds());
         
-        // Add padding to the bounds to ensure all of Albania is visible
+        // Set the max bounds with some padding
         map.setMaxBounds(albaniaLayer.getBounds().pad(0.1));
     })
     .catch(error => console.error('Error loading GeoJSON:', error));

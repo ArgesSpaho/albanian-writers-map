@@ -147,6 +147,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: sepia(30%);
 }
 
 .marker-dot {
@@ -374,4 +375,18 @@ footer {
     z-index: 1000;
     text-align: center;
     font-weight: bold;
+}
+
+/* Map masking styles */
+.leaflet-tile-container {
+    filter: grayscale(30%) sepia(20%);
+}
+
+.leaflet-tile {
+    transition: opacity 0.2s;
+}
+
+/* Enhance the contrast between Albania and surrounding areas */
+.leaflet-overlay-pane path {
+    transition: all 0.3s;
 } 
