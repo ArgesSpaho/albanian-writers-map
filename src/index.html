@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harta e Shkrimtarëve Shqiptarë</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="nav-brand">Harta e Shkrimtarëve</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Harta</a></li>
+                    <li><a href="about.html">Rreth Nesh</a></li>
+                    <li class="lang-switch">
+                        <a href="index-en.html" class="lang-btn">EN</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="map-section">
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <!-- Modal and Overlay -->
+    <div class="modal-overlay"></div>
+    <div class="modal">
+        <button class="close-modal">&times;</button>
+        <div class="modal-content"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Harta e Shkrimtarëve Shqiptarë. Të gjitha të drejtat të rezervuara.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 

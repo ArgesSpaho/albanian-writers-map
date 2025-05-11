@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albanian Writers Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Albanian Writers Map</h1>
+    </header>
+
+    <main>
+        <section id="map-section">
+            <div id="map"></div>
+        </section>
+
+        <section id="about-section">
+            <div class="container">
+                <h2>About This Project</h2>
+                <p>This interactive map showcases the locations and stories of prominent Albanian writers throughout history. Each marker represents a writer's significant location, and clicking on it reveals more information about their life and work.</p>
+                <p>Our goal is to celebrate Albania's rich literary heritage and make it accessible to everyone through this digital platform.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Albanian Writers Map. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="data/writers.json"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
