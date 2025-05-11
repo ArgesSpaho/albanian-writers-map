@@ -23,7 +23,7 @@ L.tileLayer('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJA
 }).addTo(map);
 
 // Load and style the GeoJSON with vintage styling
-fetch('../data/geoBoundaries-ALB-ADM1_simplified.geojson')
+fetch('/albanian-writers-map/data/geoBoundaries-ALB-ADM1_simplified.geojson')
     .then(response => response.json())
     .then(data => {
         // Add a layer for the Albania geojson with vintage styling
@@ -115,7 +115,7 @@ const writerIcon = L.divIcon({
 });
 
 // Fetch writers data
-fetch('../data/writers.json')
+fetch('/albanian-writers-map/data/writers.json')
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
