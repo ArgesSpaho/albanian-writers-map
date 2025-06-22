@@ -420,7 +420,7 @@
                 "lat": 42.0789,
                 "lng": 20.4219
             },
-            "photo": "https://cloudfront.bukinist.al/img/m/1546-medium_default.jpg",
+            "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Eqrem_%C3%87abej_%28portret%29.jpeg/250px-Eqrem_%C3%87abej_%28portret%29.jpeg",
             "bio": {
                 "sq": "Eqrem Çabej (1908–1980) ishte një gjuhëtar, albanolog dhe studiues i shquar shqiptar nga Kukësi. Ai studioi në Graz dhe Vjenë, ku u diplomua për gjuhësi dhe filologji. Çabej kontribuoi në zhvillimin e albanologjisë dhe ishte një nga studiuesit më të rëndësishëm të gjuhës shqipe. Ai punoi për Shoqërinë Biblike dhe ishte profesor në Universitetin e Tiranës. Veprat e tij përfshijnë studime mbi dialektologjinë, etimologjinë dhe historinë e gjuhës shqipe. Çabej ishte një nga themeluesit e albanologjisë moderne dhe kontributi i tij në fushën e gjuhësisë mbetet i pakrahasueshëm.",
                 "en": "Eqrem Çabej (1908–1980) was a prominent Albanian linguist, Albanologist, and scholar from Kukës. He studied in Graz and Vienna, where he graduated in linguistics and philology. Çabej contributed significantly to the development of Albanology and was one of the most important scholars of the Albanian language. He worked for the Bible Society and was a professor at the University of Tirana. His works include studies on dialectology, etymology, and the history of the Albanian language. Çabej was one of the founders of modern Albanology, and his contribution to the field of linguistics remains unparalleled."
@@ -428,15 +428,15 @@
             "works": {
                 "sq": [
                     {
-                        "title": "Studime gjuhësore",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Dokumentar për Eqrem Çabej",
+                        "url": "https://www.youtube.com/watch?v=3XleSZcRLXQ",
                         "type": "video"
                     }
                 ],
                 "en": [
                     {
-                        "title": "Linguistic Studies",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Documentary about Eqrem Çabej",
+                        "url": "https://www.youtube.com/watch?v=3XleSZcRLXQ",
                         "type": "video"
                     }
                 ]
@@ -457,15 +457,15 @@
             "works": {
                 "sq": [
                     {
-                        "title": "Vaji i bylbylit",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Dokumentar për Ndre Mjeda",
+                        "url": "https://youtu.be/5PbkcwKQAWI",
                         "type": "video"
                     }
                 ],
                 "en": [
                     {
-                        "title": "The Nightingale's Lament",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Documentary about Ndre Mjeda",
+                        "url": "https://youtu.be/5PbkcwKQAWI",
                         "type": "video"
                     }
                 ]
@@ -486,15 +486,15 @@
             "works": {
                 "sq": [
                     {
-                        "title": "Letërsia shqipe",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Dokumentar për Dhimitër Shuteriqi",
+                        "url": "https://youtu.be/FPxo2zj8jko",
                         "type": "video"
                     }
                 ],
                 "en": [
                     {
-                        "title": "Albanian Literature",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Documentary about Dhimitër Shuteriqi",
+                        "url": "https://youtu.be/FPxo2zj8jko",
                         "type": "video"
                     }
                 ]
@@ -515,15 +515,15 @@
             "works": {
                 "sq": [
                     {
-                        "title": "Poezi dhe romane",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Dokumentar për Sterjo Spasse",
+                        "url": "https://www.youtube.com/watch?v=Jp6328K8JcQ",
                         "type": "video"
                     }
                 ],
                 "en": [
                     {
-                        "title": "Poetry and Novels",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Documentary about Sterjo Spasse",
+                        "url": "https://www.youtube.com/watch?v=Jp6328K8JcQ",
                         "type": "video"
                     }
                 ]
@@ -536,7 +536,7 @@
                 "lat": 42.0444,
                 "lng": 19.8994
             },
-            "photo": "data:image/jpeg;base64,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",
+            "photo": "https://lh3.googleusercontent.com/proxy/d9fJYf8liro2xipbNoO_pY6rAR2eYi9h69fmRhRi38731oCIkmKTA5xrVURrBRe5TRQKmEGI8Z8IAhX_gOZYCsbcVjERDmwpFDRb34pcz7uCRBI",
             "bio": {
                 "sq": "Preç Zogaj (1920–1991) ishte një shkrimtar, poet dhe publicist i shquar shqiptar nga Puka. Ai studioi në Universitetin e Tiranës dhe u bë një nga figurat më të rëndësishme të letërsisë shqipe të periudhës së realizmit socialist. Zogaj kontribuoi në zhvillimin e romantizmit dhe realizmit në letërsinë shqipe. Veprat e tij përfshijnë romane, poezi dhe tregime që pasqyrojnë realitetin social të kohës. Ai ishte gjithashtu një përkthyes i talentuar dhe kontribuoi në pasurimin e letërsisë shqipe me vepra nga letërsia botërore. Zogaj mbetet një nga zërat më të rëndësishëm të letërsisë shqiptare moderne.",
                 "en": "Preç Zogaj (1920–1991) was a prominent Albanian writer, poet, and publicist from Puka. He studied at the University of Tirana and became one of the most important figures in Albanian literature during the socialist realism period. Zogaj contributed to the development of romanticism and realism in Albanian literature. His works include novels, poetry, and stories that reflect the social reality of the time. He was also a talented translator and contributed to the enrichment of Albanian literature with works from world literature. Zogaj remains one of the most important voices of modern Albanian literature."
@@ -544,15 +544,15 @@
             "works": {
                 "sq": [
                     {
-                        "title": "Vepra letrare",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Dokumentar për Preç Zogaj",
+                        "url": "https://youtu.be/4ol5dtkQ6qM",
                         "type": "video"
                     }
                 ],
                 "en": [
                     {
-                        "title": "Literary Works",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Documentary about Preç Zogaj",
+                        "url": "https://youtu.be/4ol5dtkQ6qM",
                         "type": "video"
                     }
                 ]
@@ -562,10 +562,10 @@
             "id": 24,
             "name": "Dritëro Agolli",
             "location": {
-                "lat": 40.6186,
+                "lat": 40.7186,
                 "lng": 20.7808
             },
-            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Fan_Stilian_Noli.jpg/250px-Fan_Stilian_Noli.jpg",
+            "photo": "https://driteroagolli.org/wp-content/uploads/2021/09/single-image-11-1.jpg",
             "bio": {
                 "sq": "Dritëro Agolli (1931–2017) ishte një poet, shkrimtar dhe publicist i shquar shqiptar nga Korçë Devoll. Ai studioi në Universitetin e Tiranës dhe u bë një nga figurat më të rëndësishme të letërsisë shqipe të periudhës së realizmit socialist. Agolli kontribuoi në zhvillimin e poezisë dhe romantizmit në letërsinë shqipe. Veprat e tij përfshijnë poezi, romane dhe tregime që pasqyrojnë realitetin social të kohës. Ai ishte gjithashtu një përkthyes i talentuar dhe kontribuoi në pasurimin e letërsisë shqipe me vepra nga letërsia botërore. Agolli mbetet një nga zërat më të rëndësishëm të letërsisë shqiptare moderne.",
                 "en": "Dritëro Agolli (1931–2017) was a prominent Albanian poet, writer, and publicist from Korçë Devoll. He studied at the University of Tirana and became one of the most important figures in Albanian literature during the socialist realism period. Agolli contributed to the development of poetry and romanticism in Albanian literature. His works include poetry, novels, and stories that reflect the social reality of the time. He was also a talented translator and contributed to the enrichment of Albanian literature with works from world literature. Agolli remains one of the most important voices of modern Albanian literature."
@@ -573,15 +573,15 @@
             "works": {
                 "sq": [
                     {
-                        "title": "Poezi dhe vepra",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Dokumentar për Dritëro Agolli",
+                        "url": "https://youtu.be/sOYuxEnwNh0",
                         "type": "video"
                     }
                 ],
                 "en": [
                     {
-                        "title": "Poetry and Works",
-                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "title": "Documentary about Dritëro Agolli",
+                        "url": "https://youtu.be/sOYuxEnwNh0",
                         "type": "video"
                     }
                 ]
