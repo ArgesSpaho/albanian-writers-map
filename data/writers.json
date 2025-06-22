@@ -412,6 +412,180 @@
                     }
                 ]
             }
+        },
+        {
+            "id": 19,
+            "name": "Eqrem Çabej",
+            "location": {
+                "lat": 42.0789,
+                "lng": 20.4219
+            },
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Eqrem_%C3%87abej.jpg/250px-Eqrem_%C3%87abej.jpg",
+            "bio": {
+                "sq": "Eqrem Çabej (1908–1980) ishte një gjuhëtar, albanolog dhe studiues i shquar shqiptar nga Kukësi. Ai studioi në Graz dhe Vjenë, ku u diplomua për gjuhësi dhe filologji. Çabej kontribuoi në zhvillimin e albanologjisë dhe ishte një nga studiuesit më të rëndësishëm të gjuhës shqipe. Ai punoi për Shoqërinë Biblike dhe ishte profesor në Universitetin e Tiranës. Veprat e tij përfshijnë studime mbi dialektologjinë, etimologjinë dhe historinë e gjuhës shqipe. Çabej ishte një nga themeluesit e albanologjisë moderne dhe kontributi i tij në fushën e gjuhësisë mbetet i pakrahasueshëm.",
+                "en": "Eqrem Çabej (1908–1980) was a prominent Albanian linguist, Albanologist, and scholar from Kukës. He studied in Graz and Vienna, where he graduated in linguistics and philology. Çabej contributed significantly to the development of Albanology and was one of the most important scholars of the Albanian language. He worked for the Bible Society and was a professor at the University of Tirana. His works include studies on dialectology, etymology, and the history of the Albanian language. Çabej was one of the founders of modern Albanology, and his contribution to the field of linguistics remains unparalleled."
+            },
+            "works": {
+                "sq": [
+                    {
+                        "title": "Studime gjuhësore",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "Linguistic Studies",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 20,
+            "name": "Ndre Mjeda",
+            "location": {
+                "lat": 41.7836,
+                "lng": 19.6436
+            },
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ndre_Mjeda.jpg/250px-Ndre_Mjeda.jpg",
+            "bio": {
+                "sq": "Ndre Mjeda (1866–1937) ishte një poet, prift dhe patriot shqiptar nga Lezha. Ai studioi në Shkup, Zagreb dhe Romë, ku u diplomua për teologji. Mjeda ishte një nga poetët më të shquar të Rilindjes Kombëtare dhe kontribuoi në zhvillimin e letërsisë shqipe. Veprat e tij poetike përfshijnë 'Vaji i bylbylit', 'Jeta e Skënderbeut' dhe 'Liria e Shqipërisë'. Ai ishte gjithashtu një përkrahës i fuqishëm i pavarësisë shqiptare dhe luajti një rol të rëndësishëm në Kongresin e Manastirit. Stili i tij patriotik dhe i pasur me elemente folklorike e bëri atë një nga figurat më të lavdëruara të letërsisë shqiptare.",
+                "en": "Ndre Mjeda (1866–1937) was an Albanian poet, priest, and patriot from Lezha. He studied in Skopje, Zagreb, and Rome, where he graduated in theology. Mjeda was one of the most prominent poets of the National Renaissance and contributed to the development of Albanian literature. His poetic works include 'The Nightingale's Lament', 'The Life of Skanderbeg', and 'Albania's Freedom'. He was also a strong supporter of Albanian independence and played an important role in the Congress of Manastir. His patriotic style and rich use of folklore made him one of the most celebrated figures in Albanian literature."
+            },
+            "works": {
+                "sq": [
+                    {
+                        "title": "Vaji i bylbylit",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "The Nightingale's Lament",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "name": "Dhimitër Shuteriqi",
+            "location": {
+                "lat": 40.7244,
+                "lng": 19.5561
+            },
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Dhimit%C3%ABr_Shuteriqi.jpg/250px-Dhimit%C3%ABr_Shuteriqi.jpg",
+            "bio": {
+                "sq": "Dhimitër Shuteriqi (1915–2003) ishte një shkrimtar, poet dhe studiues i shquar shqiptar nga Fieri. Ai studioi në Universitetin e Tiranës dhe u bë një nga figurat më të rëndësishme të letërsisë shqipe të shekullit XX. Shuteriqi kontribuoi në zhvillimin e romantizmit dhe realizmit në letërsinë shqipe. Veprat e tij përfshijnë romane, poezi dhe studime letrare. Ai ishte gjithashtu një përkthyes i talentuar dhe kontribuoi në pasurimin e letërsisë shqipe me vepra nga letërsia botërore. Shuteriqi mbetet një nga zërat më të rëndësishëm të letërsisë shqiptare moderne.",
+                "en": "Dhimitër Shuteriqi (1915–2003) was a prominent Albanian writer, poet, and scholar from Fier. He studied at the University of Tirana and became one of the most important figures in 20th-century Albanian literature. Shuteriqi contributed to the development of romanticism and realism in Albanian literature. His works include novels, poetry, and literary studies. He was also a talented translator and contributed to the enrichment of Albanian literature with works from world literature. Shuteriqi remains one of the most important voices of modern Albanian literature."
+            },
+            "works": {
+                "sq": [
+                    {
+                        "title": "Letërsia shqipe",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "Albanian Literature",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 22,
+            "name": "Sterjo Spasse",
+            "location": {
+                "lat": 40.9419,
+                "lng": 19.7050
+            },
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sterjo_Spasse.jpg/250px-Sterjo_Spasse.jpg",
+            "bio": {
+                "sq": "Sterjo Spasse (1914–1989) ishte një shkrimtar dhe poet i njohur shqiptar nga Lushnja. Ai studioi në Universitetin e Tiranës dhe u bë një nga figurat më të rëndësishme të letërsisë shqipe të periudhës së realizmit socialist. Spasse kontribuoi në zhvillimin e romantizmit dhe realizmit në letërsinë shqipe. Veprat e tij përfshijnë romane, poezi dhe tregime që pasqyrojnë realitetin social të kohës. Ai ishte gjithashtu një përkthyes i talentuar dhe kontribuoi në pasurimin e letërsisë shqipe. Spasse mbetet një nga zërat më të rëndësishëm të letërsisë shqiptare moderne.",
+                "en": "Sterjo Spasse (1914–1989) was a well-known Albanian writer and poet from Lushnja. He studied at the University of Tirana and became one of the most important figures in Albanian literature during the socialist realism period. Spasse contributed to the development of romanticism and realism in Albanian literature. His works include novels, poetry, and stories that reflect the social reality of the time. He was also a talented translator and contributed to the enrichment of Albanian literature. Spasse remains one of the most important voices of modern Albanian literature."
+            },
+            "works": {
+                "sq": [
+                    {
+                        "title": "Poezi dhe romane",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "Poetry and Novels",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 23,
+            "name": "Preç Zogaj",
+            "location": {
+                "lat": 42.0444,
+                "lng": 19.8994
+            },
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Pre%C3%A7_Zogaj.jpg/250px-Pre%C3%A7_Zogaj.jpg",
+            "bio": {
+                "sq": "Preç Zogaj (1920–1991) ishte një shkrimtar, poet dhe publicist i shquar shqiptar nga Puka. Ai studioi në Universitetin e Tiranës dhe u bë një nga figurat më të rëndësishme të letërsisë shqipe të periudhës së realizmit socialist. Zogaj kontribuoi në zhvillimin e romantizmit dhe realizmit në letërsinë shqipe. Veprat e tij përfshijnë romane, poezi dhe tregime që pasqyrojnë realitetin social të kohës. Ai ishte gjithashtu një përkthyes i talentuar dhe kontribuoi në pasurimin e letërsisë shqipe me vepra nga letërsia botërore. Zogaj mbetet një nga zërat më të rëndësishëm të letërsisë shqiptare moderne.",
+                "en": "Preç Zogaj (1920–1991) was a prominent Albanian writer, poet, and publicist from Puka. He studied at the University of Tirana and became one of the most important figures in Albanian literature during the socialist realism period. Zogaj contributed to the development of romanticism and realism in Albanian literature. His works include novels, poetry, and stories that reflect the social reality of the time. He was also a talented translator and contributed to the enrichment of Albanian literature with works from world literature. Zogaj remains one of the most important voices of modern Albanian literature."
+            },
+            "works": {
+                "sq": [
+                    {
+                        "title": "Vepra letrare",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "Literary Works",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 24,
+            "name": "Dritëro Agolli",
+            "location": {
+                "lat": 41.6103,
+                "lng": 20.0089
+            },
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Drit%C3%ABro_Agolli.jpg/250px-Drit%C3%ABro_Agolli.jpg",
+            "bio": {
+                "sq": "Dritëro Agolli (1931–2017) ishte një poet, shkrimtar dhe publicist i shquar shqiptar nga Burreli. Ai studioi në Universitetin e Tiranës dhe u bë një nga figurat më të rëndësishme të letërsisë shqipe të periudhës së realizmit socialist. Agolli kontribuoi në zhvillimin e poezisë dhe romantizmit në letërsinë shqipe. Veprat e tij përfshijnë poezi, romane dhe tregime që pasqyrojnë realitetin social të kohës. Ai ishte gjithashtu një përkthyes i talentuar dhe kontribuoi në pasurimin e letërsisë shqipe me vepra nga letërsia botërore. Agolli mbetet një nga zërat më të rëndësishëm të letërsisë shqiptare moderne.",
+                "en": "Dritëro Agolli (1931–2017) was a prominent Albanian poet, writer, and publicist from Burrel. He studied at the University of Tirana and became one of the most important figures in Albanian literature during the socialist realism period. Agolli contributed to the development of poetry and romanticism in Albanian literature. His works include poetry, novels, and stories that reflect the social reality of the time. He was also a talented translator and contributed to the enrichment of Albanian literature with works from world literature. Agolli remains one of the most important voices of modern Albanian literature."
+            },
+            "works": {
+                "sq": [
+                    {
+                        "title": "Poezi dhe vepra",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "Poetry and Works",
+                        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "type": "video"
+                    }
+                ]
+            }
         }
     ]
 } 
