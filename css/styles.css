@@ -354,9 +354,8 @@ footer {
 }
 
 .close-modal:hover {
-    color: var(--vintage-dark);
-    border-color: var(--vintage-dark);
-    transform: rotate(90deg);
+    background-color: var(--vintage-accent);
+    color: var(--vintage-bg);
 }
 
 /* Add vintage fonts */
@@ -389,4 +388,57 @@ footer {
 /* Enhance the contrast between Albania and surrounding areas */
 .leaflet-overlay-pane path {
     transition: all 0.3s;
+}
+
+/* Works section styling */
+.works-section {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: rgba(244, 228, 188, 0.3);
+    border: 1px solid var(--vintage-accent);
+    border-radius: 4px;
+    border-left: 4px solid var(--vintage-accent);
+}
+
+.works-section h4 {
+    color: var(--vintage-dark);
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.works-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.works-list li {
+    margin-bottom: 0.5rem;
+}
+
+.work-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--vintage-accent);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    font-size: 0.95rem;
+    border: 1px solid transparent;
+}
+
+.work-link:hover {
+    background-color: var(--vintage-accent);
+    color: var(--vintage-bg);
+    border-color: var(--vintage-accent);
+    transform: translateX(3px);
+}
+
+.work-link:active {
+    transform: translateX(3px) scale(0.98);
 } 

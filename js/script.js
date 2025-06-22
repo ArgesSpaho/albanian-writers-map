@@ -74,11 +74,32 @@ function geoToMapCoords(lat, lng) {
 
 // Function to create modal content
 function createModalContent(writer) {
+    let worksSection = '';
+    
+    // Add works section if available
+    if (writer.works && writer.works[currentLang]) {
+        const works = writer.works[currentLang];
+        if (works.length > 0) {
+            worksSection = `
+                <div class="works-section">
+                    <h4>${currentLang === 'sq' ? 'Veprat e njohura:' : 'Notable Works:'}</h4>
+                    <ul class="works-list">
+                        ${works.map(work => {
+                            const icon = work.type === 'video' ? '🎥' : '📖';
+                            return `<li><a href="${work.url}" target="_blank" class="work-link">${icon} ${work.title}</a></li>`;
+                        }).join('')}
+                    </ul>
+                </div>
+            `;
+        }
+    }
+    
     return `
         <div class="writer-info">
             <img src="${writer.photo}" alt="${writer.name}">
             <h3>${writer.name}</h3>
             <p>${writer.bio[currentLang]}</p>
+            ${worksSection}
         </div>
     `;
 }

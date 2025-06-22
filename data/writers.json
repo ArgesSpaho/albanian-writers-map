@@ -76,6 +76,22 @@
             "bio": {
                 "sq": "Gjergj Fishta (1871–1940) ishte poet, shkrimtar dhe prift françeskan, një ndër figurat më të rëndësishme të Rilindjes Kombëtare. Ai kontribuoi në zhvillimin e gjuhës dhe letërsisë shqipe dhe ishte një figurë e shquar kulturore dhe politike. Vepra e tij më e njohur, 'Lahuta e Malcis', është një poemë epike që pasqyron trimërinë shqiptare. Fishta drejtoi revistën 'Hylli i Dritës', mori pjesë në Konferencën e Paqes në Paris dhe ishte anëtar i Komisisë Letrare Shqipe. Stili i tij patriotik dhe i pasur me elemente folklorike e bëri atë një nga figurat më të lavdëruara të letërsisë shqiptare.",
                 "en": "Gjergj Fishta (1871–1940) was a poet, writer, and Franciscan friar, one of the most important figures of the Albanian National Renaissance. He contributed to the development of the Albanian language and literature and was a leading cultural and political figure. His most famous work, 'The Highland Lute', is an epic poem celebrating Albanian heroism. Fishta led the magazine 'Hylli i Dritës', participated in the Paris Peace Conference, and was a member of the Albanian Literary Commission. His patriotic style and rich use of folklore made him one of the most celebrated figures in Albanian literature."
+            },
+            "works": {
+                "sq": [
+                    {
+                        "title": "Lahuta e Malcis",
+                        "url": "https://youtu.be/7-W22xdaj5k?si=2nQ-bbL0wWHsybTk",
+                        "type": "video"
+                    }
+                ],
+                "en": [
+                    {
+                        "title": "The Highland Lute",
+                        "url": "https://youtu.be/7-W22xdaj5k?si=2nQ-bbL0wWHsybTk",
+                        "type": "video"
+                    }
+                ]
             }
         },
         {
@@ -126,8 +142,8 @@
             },
             "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Mustafa_Merlika_Kruja.jpg/250px-Mustafa_Merlika_Kruja.jpg",
             "bio": {
-                "sq": "Mustafa Kruja ishte një studiues, historian dhe politikan shqiptar, i lindur në Krujë. Ai luajti një rol të rëndësishëm në ruajtjen e gjuhës dhe identitetit kombëtar shqiptar, duke kontribuar në kulturën dhe historinë e vendit. Kruja ishte një zë i fortë për trashëgiminë kombëtare dhe njihej për studimet e tij të thelluara. Ndër veprat e tij më të njohura janë ‘Shqiptarët e fuqitë e mëdha’, ‘Inteligjenca shqiptare’ dhe ‘Figura e Mustafa Krujës dhe vetëdija e përgjumur e një kombi’. Ai reflektoi mbi rolin e intelektualëve dhe sfidat e kombit në kohë të vështira. Me mendim kritik dhe ndjenjë kombëtare, ai mbetet një figurë me ndikim të thellë në historinë shqiptare.",
-                "en": "Mustafa Kruja was an Albanian scholar, historian, and politician, born in Krujë. He played a key role in preserving the Albanian language and national identity, contributing significantly to the country's cultural and historical heritage. Kruja was a passionate advocate for national legacy and known for his deep studies. His best-known works include ‘The Albanians and the Great Powers’, ‘Albanian Intelligence’, and ‘The Figure of Mustafa Kruja and the Dormant Consciousness of a Nation’. He reflected on the role of intellectuals and the challenges of the nation during critical times. With critical thought and strong national sentiment, he remains a deeply influential figure in Albanian history."
+                "sq": "Mustafa Kruja ishte një studiues, historian dhe politikan shqiptar, i lindur në Krujë. Ai luajti një rol të rëndësishëm në ruajtjen e gjuhës dhe identitetit kombëtar shqiptar, duke kontribuar në kulturën dhe historinë e vendit. Kruja ishte një zë i fortë për trashëgiminë kombëtare dhe njihej për studimet e tij të thelluara. Ndër veprat e tij më të njohura janë 'Shqiptarët e fuqitë e mëdha' dhe 'Inteligjenca shqiptare'. Ai reflektoi mbi rolin e intelektualëve dhe sfidat e kombit në kohë të vështira. Me mendim kritik dhe ndjenjë kombëtare, ai mbetet një figurë me ndikim të thellë në historinë shqiptare.",
+                "en": "Mustafa Kruja was an Albanian scholar, historian, and politician, born in Krujë. He played a key role in preserving the Albanian language and national identity, contributing significantly to the country's cultural and historical heritage. Kruja was a passionate advocate for national legacy and known for his deep studies. His best-known works include 'The Albanians and the Great Powers' and 'Albanian Intelligence'. He reflected on the role of intellectuals and the challenges of the nation during critical times. With critical thought and strong national sentiment, he remains a deeply influential figure in Albanian history."
             }
         },
         {
