@@ -2,6 +2,10 @@
 
 An interactive web application that showcases prominent Albanian writers on a vintage-styled map. The project features a beautiful, antique-themed interface that allows users to explore Albania's rich literary heritage.
 
+## ⚠️ IMPORTANT NOTICE
+
+**This is a private project and is not intended for public use or distribution. Please do not use, copy, modify, or distribute this project for your own personal or commercial purposes without explicit permission from the project owner.**
+
 ## Features
 
 - Interactive vintage-styled map of Albania
@@ -35,7 +39,6 @@ albanian-writers-map/
 ├── index-en.html
 ├── about.html
 ├── about-en.html
-├── LICENSE
 └── README.md
 ```
 
@@ -72,14 +75,6 @@ Visit the live site: https://argesspaho.github.io/albanian-writers-map/
 - Custom typography with period-appropriate fonts
 - Responsive layout for all screen sizes
 - Carefully crafted color scheme for an authentic vintage look
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
